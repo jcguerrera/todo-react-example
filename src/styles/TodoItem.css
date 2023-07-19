@@ -1,0 +1,29 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    background-color: rgb(85 92 99);
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.todo-item--check {
+    padding: 0 16px;
+    cursor: pointer;
+    padding-top: 6px;
+    font-size: 30px;
+}
+
+.todo-item--check--complete {
+    color: rgb(44 226 44);
+    font-weight: bold;
+}
+
+.todo-item--text--complete {
+    text-decoration-line: line-through;
+}
+
+.todo-item--delete {
+    position: absolute;
+    cursor: pointer;
+    right: 16px;
+}
